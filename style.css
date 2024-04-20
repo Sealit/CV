@@ -1,0 +1,61 @@
+body
+{
+    background-color: #8FF;
+
+    background-image: url("bg.png");
+   
+}
+
+#main 
+{
+    max-width: 720px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.zdjecie
+{ 
+    float: right;
+    border: 2px solid black; 
+    box-shadow: 3px 3px 5px #333;
+}
+
+h1
+{
+    font-size:300%;
+    text-align:center;
+}
+
+h2 
+{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+br
+{
+    clear: both;
+}
+
+table, th, td
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+table
+{
+    width: 100%;
+}
+
+th
+{
+    text-align: left;
+
+}
